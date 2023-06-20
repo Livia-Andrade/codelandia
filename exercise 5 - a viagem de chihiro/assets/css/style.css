@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Poppins:wght@100&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background: linear-gradient( #628e75,#1a4855);
+    --fonts: "Poppins", sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+body{
+    font-family: var(--fonts);
+    background: var(--background);
+    background-position: center;
+    padding: 40px;
+    margin: 5px;
+    color: #F9F9F9;
+ 
+
+}
+
+html{
+    overflow: hidden;
+}
+
+container{
+
+}
+
+//header
+
+.c .img{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+
+nav {
+    position:absolute;
+    top: 99px;
+    right: 200px
+}
+
+nav li{
+    display: inline;
+    cursour: point;
+}
+
+main{
+  padding: 20px;
+  margin: auto;
+
+  display: grid;
+  grid-template-areas: "intro ilust";
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.intro{
+    display: grid;
+    grid-area: intro;
+
+}
+
+.intro h3{
+    font-family: var(--fonts);
+    display: flex;
+    top: 100px;
+}
+
+.h1{
+    font-family: var(--fonts);
+    display: flex;
+} 
+
+.blockquote{
+    display: flex;
+    height: 70px;
+    left: 165px;
+    top: 382px;
+    
+    font-family:  var(--fonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%; */
+}
+
+
+
+.btn-1{
+
+
+    /* position: absolute;
+    width: 225px;
+    height: 45px;
+    left: 165px; */
+    top: 180px;
+    right: 200px
+    position: relative;
+    background: transparent;
+    border: 4px solid #658e76;
+    padding: 16px 40px;
+    text-transform: uppercase;
+   /*responsável por inclinar o botão*/
+    transform: skew(-24deg);
+
+    background: #658E76;
+    color: #f9f9f9
+    display: inline;
+}
+
+.btn-2{
+    /* position: absolute;
+    width: 225px;
+    height: 45px;
+    left: 400px;  */
+    bottom: 140px;
+    left: 250px;
+    position: relative;
+    background: transparent;
+    border: 4px solid #658e76;
+    padding: 16px 40px;
+    text-transform: uppercase;
+    /*responsável por inclinar o botão*/
+    transform: skew(-24deg);
+    border: 2px solid #658E76;
+    color: #f9f9f9
+    display: inline;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #658e76;
+}
+
+p {
+    /*responsável por desinclinar o texto*/
+    transform: skew(24deg);
+    font-weight: 600;
+  }
+  
+
+.ilust{
+    display: grid;
+    grid-area: ilust;
+
+    left: 120px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
