@@ -92,11 +92,10 @@ main{
     font-family: var(--txt)
 }
 
-.intro-description{
-    display: flex;
-    font-size: 10px;
-}
-.intro-description, h3{
+ 
+
+. h3{
+    
     width: 445px;
     height: 30px;
 
@@ -111,7 +110,8 @@ main{
     text-transform: uppercase;
 }
 
-.intro-description, h1{
+. h1{
+    
     width: 445px;
     height: 148px;
     
@@ -124,7 +124,7 @@ main{
  
 } 
 
-.intro-description, blockquote{
+.blockquote{
     font-family: var(--txt);
     position: absolute;
     width: 600px;
@@ -160,7 +160,7 @@ main{
    
     position: relative;
     top: 92px;
-    
+    background: url(../assets/icons/play.svg);
 }
 
 button:hover {
@@ -174,11 +174,14 @@ button:hover {
     color: var(--texto);
     /*responsável por desinclinar o texto*/
     transform:skew(30deg);
-    
-    
-    
-  }
+}
   
+.btn, p, img{
+    display: inline;
+    
+    
+   
+}
 
 .ilust{
     display: grid;
