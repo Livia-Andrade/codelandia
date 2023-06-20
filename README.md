@@ -8,6 +8,3 @@
     Superando desafios reais de programação para aprimorar <br> minhas habilidades e dominar novas técnicas com excelência. 
   </p>
   
-## Demonstração
-<img src="./exercise 5 - a viagem de chihiro\Studio Ghibli.png">
-https://studio-ghilbli.vercel.app/
