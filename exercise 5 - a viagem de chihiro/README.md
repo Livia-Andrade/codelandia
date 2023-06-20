@@ -6,7 +6,7 @@ Solução para o desafio 05 da comunidade Codelândia.
 
 ##  🖥️ Demonstração
 <div align="center">
-  <img width="125" src="https://raw.githubusercontent.com/iuricode/iuricode/6f53be9b4b6e6bb84b5276b8817c18a05adb78d5/ilus-code.svg">
+  <img width="125" src="C:\Users\ameth\OneDrive\Documentos\GitHub\codelandia\exercise 5 - a viagem de chihiro\Studio Ghibli.png">
 
 ## 🔗 Link da página
 <div align="center">
