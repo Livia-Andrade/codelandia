@@ -38,10 +38,9 @@ body{
     font-family: var(--fonts);
     background: var(--background);
     background-position: center;
-    padding: 40px;
+    padding: 0px;
     margin: 5px;
     color: #F9F9F9;
- 
 
 }
 
@@ -94,11 +93,25 @@ main{
     font-family: var(--fonts);
     display: flex;
     top: 100px;
+    width: 445px;
+    Hug: (30px);
+    font-size: 20px;
+    line-height: 30px;
+
 }
 
 .h1{
     font-family: var(--fonts);
     display: flex;
+
+    width: 445px;
+    height: 148px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 109%;
 } 
 
 .blockquote{
@@ -162,10 +175,13 @@ button:hover {
     background-color: #658e76;
 }
 
-p {
+p, {
     /*responsável por desinclinar o texto*/
     transform: skew(24deg);
     font-weight: 600;
+    color: #f9f9f9;
+    display: inline;
+    
   }
   
 
@@ -177,6 +193,11 @@ p {
     width: 100%;
     height: 100%;
     position: relative;
-
+    transition: transform 1s;
+    transform: translateX(0) scale(0.5);
 }
 
+.ilust:hover{
+    transform: translateX(10px) scale(1.2);
+}
+    
