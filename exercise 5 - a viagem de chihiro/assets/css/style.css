@@ -38,8 +38,8 @@ body{
     font-family: var(--fonts);
     background: var(--background);
     background-position: center;
-    padding: 0px;
-    margin: 5px;
+    padding: 30px;
+    margin: 10px;
     color: #F9F9F9;
 
 }
@@ -49,7 +49,7 @@ html{
 }
 
 container{
-
+   
 }
 
 //header
@@ -64,7 +64,7 @@ container{
 
 nav {
     position:absolute;
-    top: 99px;
+    top: 80px;
     right: 200px
 }
 
@@ -124,7 +124,7 @@ main{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 180%; */
+    line-height: 180%; 
 }
 
 
@@ -152,10 +152,7 @@ main{
 }
 
 .btn-2{
-    /* position: absolute;
-    width: 225px;
-    height: 45px;
-    left: 400px;  */
+
     bottom: 140px;
     left: 250px;
     position: relative;
@@ -180,7 +177,7 @@ p, {
     transform: skew(24deg);
     font-weight: 600;
     color: #f9f9f9;
-    display: inline;
+
     
   }
   
@@ -194,10 +191,10 @@ p, {
     height: 100%;
     position: relative;
     transition: transform 1s;
-    transform: translateX(0) scale(0.5);
+    transform: translateX(1) scale(0.5);
 }
 
 .ilust:hover{
-    transform: translateX(10px) scale(1.2);
+    transform: translateX(20px) scale(1.2);
 }
     
